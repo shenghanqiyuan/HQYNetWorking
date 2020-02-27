@@ -1,0 +1,22 @@
+{
+  "name": "HQYNetWorking",
+  "version": "0.1.0",
+  "summary": "A short description of HQYNetWorking.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/shenghanming@sina.cn/HQYNetWorking",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "shenghanming@sina.cn": "shenghanming@sina.cn"
+  },
+  "source": {
+    "git": "https://github.com/shenghanming@sina.cn/HQYNetWorking.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "HQYNetWorking/Classes/**/*"
+}

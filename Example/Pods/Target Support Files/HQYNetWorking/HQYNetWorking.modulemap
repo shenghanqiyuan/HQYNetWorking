@@ -1,0 +1,6 @@
+framework module HQYNetWorking {
+  umbrella header "HQYNetWorking-umbrella.h"
+
+  export *
+  module * { export * }
+}
