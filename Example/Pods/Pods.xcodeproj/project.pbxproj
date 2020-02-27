@@ -19,7 +19,6 @@
 		33CD52558D8E2F820100C8753AA2F32F /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499BB97C946EF5DFF46CB40D7D685EE1 /* SwiftSupport.swift */; };
 		3B7539D7F1F434943801C478F4CE334D /* Pods-HQYNetWorking_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FDB1EDB2AA0E6491DC6F7A3DCA7FDC /* Pods-HQYNetWorking_Example-dummy.m */; };
 		4A0CFA7749C56BE6AC83AC23C29A04C9 /* HQYNetWorking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 283A67FCCBD582BA92A1F7FE46FB4310 /* HQYNetWorking-dummy.m */; };
-		548EBE3C07BBCFD8015D357FC1164DAD /* HQYLogining.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EB5909D322CD264954E0ABCAEC8A2D2 /* HQYLogining.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5AD2CFDE1A9A8192B2273EAB6B1A8282 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C97720D07754B8F519F93D7CA5AD48B /* Foundation.framework */; };
 		6F01DF0FB5610799A00AC976F981EB18 /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 912F5BE09296F333F87046761D662D18 /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		700E8CE0FDD79F21D428FC3D54D36C0E /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = D7B529483604801ABB9AB87D9F1FFAD9 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -40,7 +39,6 @@
 		F0265A1FF0B6949484B101EA055B8F6F /* HQYNetWorking.m in Sources */ = {isa = PBXBuildFile; fileRef = B7BF8E422D7088FF46651F84060A62B7 /* HQYNetWorking.m */; };
 		F8DF0374879AD9CA64E209F5E1A423B4 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A648BA81C182E1424B9B336EA8F50B1 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FBADF77268B0E307EADEDD9D8B6329C5 /* HQYNetWorking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F4BD4443A5D49058C4AB152A771A8360 /* HQYNetWorking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FDBC9B9198EEB0DA6A3A6B6A756D4916 /* HQYLogining.m in Sources */ = {isa = PBXBuildFile; fileRef = E25160DC6391616DB58433BC2AFB5815 /* HQYLogining.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -109,7 +107,6 @@
 		9A648BA81C182E1424B9B336EA8F50B1 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 		9ABFE15380F4E02B5BFD668D988F4CBF /* HQYNetWorking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HQYNetWorking-prefix.pch"; sourceTree = "<group>"; };
 		9C263E19AE80D2A79221D08AC009C4DB /* Pods-HQYNetWorking_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HQYNetWorking_Tests.modulemap"; sourceTree = "<group>"; };
-		9EB5909D322CD264954E0ABCAEC8A2D2 /* HQYLogining.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HQYLogining.h; path = HQYNetWorking/Classes/HQYLogining.h; sourceTree = "<group>"; };
 		A37FEB34D7D26D227D8B1226C4EAB0AA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		A4209C2D7929DC95F0AD404009CF3FE6 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
 		B7BF8E422D7088FF46651F84060A62B7 /* HQYNetWorking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HQYNetWorking.m; path = HQYNetWorking/Classes/HQYNetWorking.m; sourceTree = "<group>"; };
@@ -119,8 +116,7 @@
 		CC5E9FF730C28FC315DD1249D72A070C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		CEC4A771D2B66690478B9FE52E5E6E41 /* Pods-HQYNetWorking_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HQYNetWorking_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D7B529483604801ABB9AB87D9F1FFAD9 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
-		E10AEDB802FC8740EE6FCD109B68ADE0 /* HQYNetWorking.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = HQYNetWorking.podspec; sourceTree = "<group>"; };
-		E25160DC6391616DB58433BC2AFB5815 /* HQYLogining.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HQYLogining.m; path = HQYNetWorking/Classes/HQYLogining.m; sourceTree = "<group>"; };
+		E10AEDB802FC8740EE6FCD109B68ADE0 /* HQYNetWorking.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = HQYNetWorking.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E3C3BDB899DB7565B2811054B0F48672 /* Pods-HQYNetWorking_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HQYNetWorking_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E44C60A572E9C89FC61A99263C67CCF9 /* Pods-HQYNetWorking_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HQYNetWorking_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E5179BCC19B8A4C9981ACE0E961B3942 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
@@ -175,8 +171,6 @@
 		0A601DB479D67F82FB8A92AB40052B29 /* HQYNetWorking */ = {
 			isa = PBXGroup;
 			children = (
-				9EB5909D322CD264954E0ABCAEC8A2D2 /* HQYLogining.h */,
-				E25160DC6391616DB58433BC2AFB5815 /* HQYLogining.m */,
 				6276DAD895AA233FE3479252494E3EE8 /* HQYNetWorking.h */,
 				B7BF8E422D7088FF46651F84060A62B7 /* HQYNetWorking.m */,
 				2E771F90DFC21EDBFD83819499017051 /* Pod */,
@@ -373,7 +367,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				548EBE3C07BBCFD8015D357FC1164DAD /* HQYLogining.h in Headers */,
 				FBADF77268B0E307EADEDD9D8B6329C5 /* HQYNetWorking-umbrella.h in Headers */,
 				912C4F254079EC2E8FE0CE35E2317E1E /* HQYNetWorking.h in Headers */,
 			);
@@ -586,7 +579,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDBC9B9198EEB0DA6A3A6B6A756D4916 /* HQYLogining.m in Sources */,
 				4A0CFA7749C56BE6AC83AC23C29A04C9 /* HQYNetWorking-dummy.m in Sources */,
 				F0265A1FF0B6949484B101EA055B8F6F /* HQYNetWorking.m in Sources */,
 			);

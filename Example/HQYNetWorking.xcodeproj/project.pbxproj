@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		12736A9051175730B992DE38 /* Pods-HQYNetWorking_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HQYNetWorking_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HQYNetWorking_Tests/Pods-HQYNetWorking_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		2061F18E09FA46FC33C1CB60 /* HQYNetWorking.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HQYNetWorking.podspec; path = ../HQYNetWorking.podspec; sourceTree = "<group>"; };
+		2061F18E09FA46FC33C1CB60 /* HQYNetWorking.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HQYNetWorking.podspec; path = ../HQYNetWorking.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3D4CA54A3D424F71C46E21A5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		4D6095FD94D8905E4CE87656 /* Pods-HQYNetWorking_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HQYNetWorking_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HQYNetWorking_Example/Pods-HQYNetWorking_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* HQYNetWorking_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HQYNetWorking_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
